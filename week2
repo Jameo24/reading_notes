@@ -1,0 +1,5 @@
+# What is a windows domain and how does it affect my PC?
+
+Windows domains provide network administrators with a way to manage a large number of PCs and control them from one place.
+Domains are generally made up of computers on the same local network. If you have a home computer, it’s almost certainly not part of a domain.
+Every Windows computer not joined to a domain is part of a workgroup. Workgroups were previously used for home file and printer sharing on previous versions of Windows.
