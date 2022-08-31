@@ -1,0 +1,3 @@
+# What is Active diretory?
+
+Active Directory (AD) is Microsoft’s directory and identity management service for Windows domain networks. It was introduced in Windows 2000 and is included in most Microsoft Operating Systems. The Active Directory schema supports various types of objects like User, Group, Contact, Computer, Shared Folder, Printer, and Organizational Unit, along with a set of descriptive attributes for each object. Active Directory provides a variety of functional and business benefits, including Security, Extensibility,Simplicity and Resiliency.
