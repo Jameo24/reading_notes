@@ -4,4 +4,3 @@ Group Policy is a feature of Windows that facilitates a wide variety of advanced
 Group Policies, when used correctly, can enable you to increase the security of user’s computers and help defend against both insider threats and external attacks.
 Active Directory applies GPOs in the same, logical order; local policies, site policies, domain policies and OU policies.
 The benefits of Group Policy are not limited solely to security, there are a number of other advantages that are worth mentioning like Password Policy, Systems Management, and Health Checking.
-
