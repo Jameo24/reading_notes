@@ -1,0 +1,7 @@
+# What is NGINX?
+
+NGINX is open source software for web serving, reverse proxying, caching, load balancing, media streaming, and more.
+It started out as a web server designed for maximum performance and stability.The goal behind NGINX was to create the
+fastest web server around, and maintaining that excellence is still a central goal of the project.
+NGINX also is frequently placed between clients and a second web server, to serve as an SSL/TLS terminator or web accelerator.
+NGINX Plus and NGINX are the best-in-class web server and application delivery solutions used by high‑traffic websites such as Dropbox, Netflix, and Zynga.

@@ -1,0 +1,17 @@
+# What is a Site-to-Site VPN?
+
+A site-to-site virtual private network (VPN) refers to a connection set up between multiple networks.
+This could be a corporate network where multiple offices work in conjunction with each other or a branch office network with a central office and multiple branch locations.
+The history of site-to-site VPNs intersects, in many ways, with the history of the internet itself. Site-to-site VPNs were a forbearer of what we now know as the internet. They were first made possible through the use of the original packet switching network named Advanced Research Projects Agency Network (ARPANET), as well as the initial uses of Transmission Control Protocol/Internet Protocol (TCP/IP).
+A remote access VPN refers to a temporary connection set up between two or more users and a central location. In most cases, a remote access VPN is used to give each location access to a data center. In some situations, a connection that makes use of Internet Protocol security (IPsec) is sufficient.
+An intranet-based site-to-site VPN connects more than one local-area network (LAN) to form a wide-area network (WAN).
+A company may also use this kind of setup to incorporate software-defined WAN (SD-WAN).
+Extranet-based site-to-site VPNs are often used by two or more different companies that want to share certain resources but keep others private. With an extranet-based site-to-site VPN, each entity connects to the VPN and chooses what they want to make available to the other companies. In this way, they can collaborate and share without exposing proprietary data.
+
+To create an internet-based site-to-site VPN, you make a tunnel that connects two networks, for which you need three components:
+
+A base network in one location
+A satellite network in another location
+A tunnel with security gateways on each end
+
+The security of your VPN cannot be left to chance. High-performance encryption and decryption is necessary on both ends of your site-to-site VPN. Because large volumes of information must be transported securely, you also need a system that can process data quickly without sacrificing the safety of the network. With new threats emerging daily, you need a solution that can adequately protect data while in transit and within each location.

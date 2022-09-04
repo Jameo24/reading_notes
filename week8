@@ -1,0 +1,19 @@
+# VirtualBox Network Settings Guide
+
+Virtual machines must be able to connect to physical and virtual networks with their virtual network adapters. 
+Virtual machines running on VirtualBox can be connected to different networks. VirtualBox provides multiple network modes for virtual machines.
+
+Below, the following VirtualBox network modes will be discussed and compared:
+
+Not Attached
+NAT
+NAT Network
+Bridged Adapter
+Internal Network
+Host-Only Adapter
+Generic Driver
+
+Each VirtualBox VM can use up to eight virtual network adapters, each of which in turn is referred to as a network interface controller (NIC). 
+Four virtual network adapters can be configured in the VirtualBox GUI (graphical user interface).
+VirtualBox provides a long list of network modes, which is one of the most interesting features of VirtualBox network settings. 
+Each virtual network adapter can be separately configured to operate in a different network mode. 

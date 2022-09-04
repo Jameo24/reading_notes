@@ -1,0 +1,18 @@
+# Understanding Network Data Delivery: Layers 2 and 3 of the OSI Model
+
+# What Is Wireshark and How Is It Used?
+
+The Open Systems Interconnection (OSI) model is a series of layers through which computer systems use to communicate.
+There are seven layers, and the networking layer would be layer 3. The network layer is responsible for packet forwarding,
+including routing through intermediate routers. The data link layer, or layer 2, is the protocol layer that transfers data between
+nodes on a network segment across the physical layer, or what is commonly known as a host’s physical address.
+
+The OSI model has seven layers:
+
+Physical
+Data Link
+Network
+Transport
+Session
+Presentation
+Application
