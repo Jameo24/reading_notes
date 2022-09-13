@@ -1,0 +1,23 @@
+# Network Scanning with NMAP
+
+A port scanner is a computer program that checks network ports for one of three possible statuses – open, closed, or filtered.
+
+Port scanners are valuable tools in diagnosing network and connectivity issues. However, attackers use port scanners to detect possible access points for infiltration and to identify what kinds of devices you are running on the network, like firewalls, proxy servers or VPN servers.
+A port scanner sends a network request to connect to a specific TCP or UDP port on a computer and records the response.
+
+A port is a virtual location where networking communication starts and ends (in a nutshell). For a more in-depth explanation, we need to establish a little background information. There are two kinds of network ports on each computer (65,536 of each for a total of 131,082 network ports):
+
+TCP and UDP
+Each computer has an Internet Protocol (IP) address, which is how the network knows which computer to send packets to. If you send a packet to the IP address, the computer knows what port to route the packet to based on the application or packet contents. Each service running on the computer needs to “listen” on a designated port.
+
+The first 1023 TCP ports are the well-known ports reserved for applications like FTP(21), HTTP(80), or SSH(22) and the Internet Assigned Numbers Authority (IANA) reserves these points to keep them standardized.
+
+TCP ports 1024 – 49151 are available for use by services or applications, and you can register them with IANA, so they are considered semi-reserved. Ports 49152 and higher are free to use.
+
+A port scanner sends a TCP or UDP network packet and asks the port about their current status. The three types of responses are below:
+
+Open, Accepted: The computer responds and asks if there is anything it can do for you.
+Closed, Not Listening: The computer responds that “This port is currently in use and unavailable at this time.”
+Filtered, Dropped, Blocked: The computer doesn’t even bother to respond.
+Port scans generally occur early in the cyber kill chain, during reconnaissance and intrusion. Attackers use port scans to detect targets with open and unused ports that they can repurpose for infiltration, command and control, and data exfiltration or discover what applications run on that computer to exploit a vulnerability in that application.
+

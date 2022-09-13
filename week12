@@ -1,0 +1,19 @@
+# Radius Concepts
+
+Users new to RADIUS, EAP or AAA in general are encouraged to read the following standards:
+
+RFC 2865 - Remote Authentication Dial In User Service (RADIUS)
+RFC 2866 - RADIUS Accounting
+and if working with EAP:
+
+RFC 3748 - Extensible Authentication Protocol (EAP)
+RFC 3579 - RADIUS (Remote Authentication Dial In User Service) Support For Extensible Authentication Protocol (EAP)
+This should provide a solid foundation in RADIUS and EAP at a protocol level.
+The client sends the server a RADIUS authentication request. You don't decide what's in the request, the client does.
+At the end of authorize, the server will check if anything set the Auth-Type.
+
+If nothing did, it immediately rejects the request.
+
+Lets suppose that the client sends a request with a User-Password attribute, and pap is enabled, the pap module will then have set Auth-Type = pap.
+
+So in authenticate, the server will call the pap module again:

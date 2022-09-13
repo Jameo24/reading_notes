@@ -11,3 +11,7 @@
 [Class 301 week 8 Reading Notes](week8)
 [Class 301 week 9 Reading Notes](week9)
 [Class 301 week 10 Reading Notes](week10)
+[Class 301 week 10 Reading Notes](week11)
+[Class 301 week 10 Reading Notes](week12)
+[Class 301 week 10 Reading Notes](week13)
+[Class 301 week 10 Reading Notes](week14)
